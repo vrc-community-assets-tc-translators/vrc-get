@@ -4,6 +4,7 @@ import enJson from "@/locales/en.json5";
 import deJson from "@/locales/de.json5";
 import jaJson from "@/locales/ja.json5";
 import zh_cnJson from "@/locales/zh_cn.json5";
+import zh_hantJson from "@/locales/zh_hant.json5";
 import frJson from "@/locales/fr.json5";
 import {tc as tcOriginal} from "@/components/VGTrans";
 
@@ -13,6 +14,7 @@ const languageResources = {
 	ja: jaJson,
 	fr: frJson,
 	zh_cn: zh_cnJson,
+	zh_hant: zh_hantJson,
 }
 
 i18next
